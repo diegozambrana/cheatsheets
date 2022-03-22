@@ -1,22 +1,23 @@
 import './App.css';
 import 'highlight.js/styles/nord.css';
 import {MarkDown} from './components/MarkDown';
-import markDownPath from './MarkDown/index.md'
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useMardown } from './hooks/useMarkdown';
+import { Sidebar } from './components/Sidebar';
 
 function App() {
-  const [data, setData] = useState('');
-
-  useEffect(() => {
-    fetch(markDownPath)
-      .then((res) => res.text())
-      .then((text) => {setData(text)});
-  }, []);
+  const {currentMD, changeMD} = useMardown()
 
   return (
-    <div className="App paper">
-      <MarkDown value={data}/>
+    <div className="App">
+      <Sidebar onChangeLesson={changeMD} currentKey={currentMD.key}/>
+      <div className='paper container'>
+        <div className='md-wrapper'>
+          <MarkDown value={currentMD.md}/>
+        </div>
+      </div>
+      <div className='footer'>
+        
+      </div>
     </div>
   );
 }

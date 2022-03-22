@@ -29,23 +29,49 @@ blockquote *:first-child{margin-top: 0;}
 blockquote *:last-child{margin-bottom: 0;}
 .paper{
   background-color: var(--nord6);
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 
 .App{
-  padding: 1rem 3rem  2rem;
+  display: flex;
+}
+.container{
+  box-sizing: border-box;
+  width: calc(100% - 200px);
+  margin-left: 200px;
+  padding: 1rem 2rem;
+  min-height: 100vh;
+}
+.md-wrapper{
   max-width: 960px;
-  margin: 1rem auto;
+}
+.sidebar{
+  background-color: var(--nord0);
+  width: 200px;
+  position: fixed;
+  height: 100%;
+}
+.sidebar ul{
+  padding: 0;
+}
+.sidebar ul li{
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+.sidebar ul li.selected{
+  background-color: var(--nord10);
+}
+.sidebar ul li a{
+  color: var(--nord6);
+  font-weight: 600;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
   .App{
-    margin: 1rem;
   }
 }
 @media screen and (max-width: 700px) {
   .App{
-    padding: 1rem 2rem 2rem;
   }
 }
 
