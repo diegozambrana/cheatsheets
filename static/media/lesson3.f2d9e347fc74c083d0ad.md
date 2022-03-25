@@ -13,7 +13,7 @@ const [nombre, setNombre] = React.useState('code.bo')
 ~~~
 
 > #### Referencias
-> [https://es.reactjs.org/docs/hooks-state.html](https://es.reactjs.org/docs/hooks-state.html)
+> [https://es.reactjs.org/docs/hooks-state.html](https://es.reactjs.org/docs/hooks-state.html "Usando el Hook de estado")
 
 ### useEffect
 
@@ -64,7 +64,7 @@ Escucha cada vez que se actualiza alguna variable
 ~~~
 
 > #### Referencias
-> [https://es.reactjs.org/docs/hooks-effect.html](https://es.reactjs.org/docs/hooks-effect.html)
+> [https://es.reactjs.org/docs/hooks-effect.html](https://es.reactjs.org/docs/hooks-effect.html "Usando el Hook de efecto")
 
 
 ### useLayoutEffect
@@ -78,7 +78,7 @@ La firma es idéntica a useEffect, pero se dispara de forma síncrona después d
 ~~~
 
 > #### Referencia:
-> [https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect](https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect)
+> [https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect](https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect "useLayoutEffect")
 
 ### useMemo
 
@@ -94,7 +94,7 @@ Pasa una función de "crear" y un arreglo de dependencias. useMemo solo volverá
 ~~~
 
 > #### Referencias
-> [https://es.reactjs.org/docs/hooks-reference.html#usememo](https://es.reactjs.org/docs/hooks-reference.html#usememo)
+> [https://es.reactjs.org/docs/hooks-reference.html#usememo](https://es.reactjs.org/docs/hooks-reference.html#usememo "useMemo")
 
 
 ### useRef
@@ -185,4 +185,4 @@ export const TestLocalStorage = () => {
 }
 ~~~
 
-> [https://es.reactjs.org/docs/hooks-reference.html](https://es.reactjs.org/docs/hooks-reference.html)
+> [https://es.reactjs.org/docs/hooks-reference.html](https://es.reactjs.org/docs/hooks-reference.html "Referencia de la API de los Hooks")

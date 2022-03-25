@@ -79,16 +79,16 @@ export const FunctionComponent = (props) => {
 
 > #### Referencia
 
-> [https://reactjs.org/docs/faq-styling.html](https://reactjs.org/docs/faq-styling.html)
-> [https://reactjs.org/docs/dom-elements.html#style](https://reactjs.org/docs/dom-elements.html#style)
+> [https://reactjs.org/docs/faq-styling.html](https://reactjs.org/docs/faq-styling.html "reactjs")
+> [https://reactjs.org/docs/dom-elements.html#style](https://reactjs.org/docs/dom-elements.html#style "reactjs")
 > #### Librerias de estilos
-> * **styled-componet** [https://styled-components.com/](https://styled-components.com/)
-> * **goober** [https://goober.js.org/](https://goober.js.org/)
+> * **styled-componet** [https://styled-components.com/](https://styled-components.com/ "styled-componet")
+> * **goober** [https://goober.js.org/](https://goober.js.org/ "goober")
 > #### Librerias de UI
-> * **Material UI:** [https://mui.com/](https://mui.com/)
-> * **react-bootstrap**  [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/)
-> * **Ant Design** [https://ant.design/](https://ant.design/)
-> * **Blueprint** [https://blueprintjs.com/](https://blueprintjs.com/)
+> * **Material UI:** [https://mui.com/](https://mui.com/ "Material UI")
+> * **react-bootstrap**  [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/ "react-bootstrap")
+> * **Ant Design** [https://ant.design/](https://ant.design/ "Ant Design")
+> * **Blueprint** [https://blueprintjs.com/](https://blueprintjs.com/ "blueprintjs")
 
 
 ## Propiedades
@@ -98,7 +98,7 @@ export const FunctionComponent = (props) => {
 Un componente no puede cambiar sus accesorios, pero es responsable de unir los accesorios de sus componentes secundarios.
 
 > #### Referencias
-> [https://beta.reactjs.org/learn/passing-props-to-a-component](https://beta.reactjs.org/learn/passing-props-to-a-component)
+> [https://beta.reactjs.org/learn/passing-props-to-a-component](https://beta.reactjs.org/learn/passing-props-to-a-component "Passing Props to a Component")
 
 ## Estados
 
@@ -158,7 +158,7 @@ export const ConditionalComponent = ({isValid, content, details, number}) => {
 ~~~
 
 > #### Referencias
-> [https://beta.reactjs.org/learn/conditional-rendering](https://beta.reactjs.org/learn/conditional-rendering)
+> [https://beta.reactjs.org/learn/conditional-rendering](https://beta.reactjs.org/learn/conditional-rendering "Conditional Rendering")
 
 ## Iteraciones
 
@@ -178,7 +178,7 @@ export const ListComponent = ({list}) => {
 ~~~
 
 > #### Referencias
-> [https://beta.reactjs.org/learn/rendering-lists](https://beta.reactjs.org/learn/rendering-lists)
+> [https://beta.reactjs.org/learn/rendering-lists](https://beta.reactjs.org/learn/rendering-lists "Rendering Lists")
 
 ## Eventos
 
@@ -201,5 +201,5 @@ Para definírlo tenemos que indicar dos cosas: Primero el tipo de evento que que
 ~~~
 
 > #### Referencia
-> [https://reactjs.org/docs/handling-events.html](https://reactjs.org/docs/handling-events.html)
-> [https://beta.reactjs.org/learn/responding-to-events](https://beta.reactjs.org/learn/responding-to-events)
+> [https://reactjs.org/docs/handling-events.html](https://reactjs.org/docs/handling-events.html "Handling Events")
+> [https://beta.reactjs.org/learn/responding-to-events](https://beta.reactjs.org/learn/responding-to-events "Responding to Events")

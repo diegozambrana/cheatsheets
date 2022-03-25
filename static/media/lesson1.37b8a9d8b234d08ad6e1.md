@@ -21,7 +21,7 @@ En React no dejamos fuera al resto de tus herramientas tecnológicas, así que p
 React puede también renderizar desde el servidor usando Node, así como potencializar aplicaciones móviles usando React Native.
 
 > #### Referencia
-> [https://es.reactjs.org/](https://es.reactjs.org/)
+> [https://es.reactjs.org/](https://es.reactjs.org/ "reactjs")
 
 
 ## Crear y correr un proyecto
@@ -29,7 +29,7 @@ React puede también renderizar desde el servidor usando Node, así como potenci
 
 ### Requisitos
 
-Tener instalado node [https://nodejs.org/es/download/](https://nodejs.org/es/download/) (Mac/Linux/windows)
+Tener instalado node [https://nodejs.org/es/download/](https://nodejs.org/es/download/ "nodejs") (Mac/Linux/windows)
 
 
 #### instalar create-react-app localmente (opcional) 
@@ -60,7 +60,7 @@ Para correr el proyecto se debe ingresar el siguiente comando dentro el director
 npm run start
 ~~~
 
-La  aplicación  de React estará disponible en [http://localhost:3000/](http://localhost:3000/)
+La  aplicación  de React estará disponible en [http://localhost:3000/](http://localhost:3000/ "localhost")
 
 
 ## Estructura de archivo
@@ -91,9 +91,9 @@ React.createElement(
 ~~~
 
 > #### Referencia
-> [https://es.reactjs.org/docs/jsx-in-depth.html#gatsby-focus-wrapper](https://es.reactjs.org/docs/jsx-in-depth.html#gatsby-focus-wrapper)
-> [https://beta.reactjs.org/learn/writing-markup-with-jsx](https://beta.reactjs.org/learn/writing-markup-with-jsx)
-> [https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces)
+> [https://es.reactjs.org/docs/jsx-in-depth.html](https://es.reactjs.org/docs/jsx-in-depth.html "jsx")
+> [https://beta.reactjs.org/learn/writing-markup-with-jsx](https://beta.reactjs.org/learn/writing-markup-with-jsx "Writing Markup with JSX")
+> [https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces "JavaScript in JSX with Curly Braces")
 
 
 ## Virtual DOM
@@ -101,7 +101,7 @@ React.createElement(
 El DOM virtual (VDOM) es un concepto de programación donde una representación ideal o “virtual” de la IU se mantiene en memoria y en sincronía con el DOM “real”, mediante una biblioteca como ReactDOM. Este proceso se conoce como reconciliación.
 
 > #### Referencia
-> [https://es.reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom](https://es.reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom)
+> [https://es.reactjs.org/docs/faq-internals.html](https://es.reactjs.org/docs/faq-internals.html "DOM virtual y detalles de implementación")
 
 ## subir proyecto a Github pages
 
@@ -137,11 +137,11 @@ Ir a la dirección del repositorio, ir a Settings y a la sección Pages, deberí
 
 ### Herramientas
 
-* **React Developer Tools** [Link](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?utm_source=chrome-ntp-icon)
-* **Redux DevTools** [Linnk](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)
+* **React Developer Tools** [Link](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?utm_source=chrome-ntp-icon "React Developer Tools")
+* **Redux DevTools** [Linnk](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon "Redux DevTools")
 
 
 > #### Documentación
 > La mayor parte de la documentación aquí es obtenida desde los sitios oficiales de React.js
-> * DOcumentación oficial React.js [https://es.reactjs.org/docs/getting-started.html](https://es.reactjs.org/docs/getting-started.html)
-> * Documentación Beta React.js [https://beta.reactjs.org/](https://beta.reactjs.org/)
+> * Documentación oficial React.js [https://es.reactjs.org/docs/getting-started.html](https://es.reactjs.org/docs/getting-started.html "reactjs")
+> * Documentación Beta React.js [https://beta.reactjs.org/](https://beta.reactjs.org/ "reactjs")
