@@ -92,6 +92,8 @@ React.createElement(
 
 > #### Referencia
 > [https://es.reactjs.org/docs/jsx-in-depth.html#gatsby-focus-wrapper](https://es.reactjs.org/docs/jsx-in-depth.html#gatsby-focus-wrapper)
+> [https://beta.reactjs.org/learn/writing-markup-with-jsx](https://beta.reactjs.org/learn/writing-markup-with-jsx)
+> [https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces)
 
 
 ## Virtual DOM
@@ -137,3 +139,9 @@ Ir a la dirección del repositorio, ir a Settings y a la sección Pages, deberí
 
 * **React Developer Tools** [Link](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?utm_source=chrome-ntp-icon)
 * **Redux DevTools** [Linnk](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)
+
+
+> #### Documentación
+> La mayor parte de la documentación aquí es obtenida desde los sitios oficiales de React.js
+> * DOcumentación oficial React.js [https://es.reactjs.org/docs/getting-started.html](https://es.reactjs.org/docs/getting-started.html)
+> * Documentación Beta React.js [https://beta.reactjs.org/](https://beta.reactjs.org/)

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/cheatsheets/static/css/main.d6d36b5c.css",
-    "main.js": "/cheatsheets/static/js/main.a23dbffc.js",
+    "main.js": "/cheatsheets/static/js/main.b00cffb2.js",
     "static/js/787.10a1eb35.chunk.js": "/cheatsheets/static/js/787.10a1eb35.chunk.js",
-    "static/media/lesson2.md": "/cheatsheets/static/media/lesson2.3e14cb821a59a096e7da.md",
-    "static/media/lesson1.md": "/cheatsheets/static/media/lesson1.650c39724eb429c73fd6.md",
+    "static/media/lesson2.md": "/cheatsheets/static/media/lesson2.dbd0e4eee868ea178088.md",
+    "static/media/lesson3.md": "/cheatsheets/static/media/lesson3.0ef8cca88ce6c799a168.md",
+    "static/media/lesson1.md": "/cheatsheets/static/media/lesson1.dbb5b788eaecf0c81b57.md",
     "index.html": "/cheatsheets/index.html",
     "static/media/lesson4.md": "/cheatsheets/static/media/lesson4.4c40804f87563363af71.md",
-    "static/media/lesson3.md": "/cheatsheets/static/media/lesson3.f73cfb42f04a2d25c909.md",
     "main.d6d36b5c.css.map": "/cheatsheets/static/css/main.d6d36b5c.css.map",
-    "main.a23dbffc.js.map": "/cheatsheets/static/js/main.a23dbffc.js.map",
+    "main.b00cffb2.js.map": "/cheatsheets/static/js/main.b00cffb2.js.map",
     "787.10a1eb35.chunk.js.map": "/cheatsheets/static/js/787.10a1eb35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6d36b5c.css",
-    "static/js/main.a23dbffc.js"
+    "static/js/main.b00cffb2.js"
   ]
 }

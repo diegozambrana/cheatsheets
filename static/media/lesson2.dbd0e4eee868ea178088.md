@@ -78,14 +78,27 @@ export const FunctionComponent = (props) => {
 ~~~
 
 > #### Referencia
+
 > [https://reactjs.org/docs/faq-styling.html](https://reactjs.org/docs/faq-styling.html)
 > [https://reactjs.org/docs/dom-elements.html#style](https://reactjs.org/docs/dom-elements.html#style)
+> #### Librerias de estilos
+> * **styled-componet** [https://styled-components.com/](https://styled-components.com/)
+> * **goober** [https://goober.js.org/](https://goober.js.org/)
+> #### Librerias de UI
+> * **Material UI:** [https://mui.com/](https://mui.com/)
+> * **react-bootstrap**  [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/)
+> * **Ant Design** [https://ant.design/](https://ant.design/)
+> * **Blueprint** [https://blueprintjs.com/](https://blueprintjs.com/)
+
 
 ## Propiedades
 
 **props** (abreviatura de propiedades) son la configuración de un componente, sus opciones si puede. Se reciben desde arriba e inmutables en lo que respecta al Componente que los recibe.
 
 Un componente no puede cambiar sus accesorios, pero es responsable de unir los accesorios de sus componentes secundarios.
+
+> #### Referencias
+> [https://beta.reactjs.org/learn/passing-props-to-a-component](https://beta.reactjs.org/learn/passing-props-to-a-component)
 
 ## Estados
 
@@ -125,10 +138,10 @@ El renderizado condicional en React funciona de la misma forma que lo hacen las 
 
 Puedes usar los operadores  `if`, `&&` y `? :`
 
-~~~javascript
+~~~jsx
 import React from 'react';
 
-export const ConditionalComponent = ({isValid, children}) => {
+export const ConditionalComponent = ({isValid, content, details, number}) => {
     if(!isValid){
         return (
             <div>No es valido</div>
@@ -136,11 +149,16 @@ export const ConditionalComponent = ({isValid, children}) => {
     }
     return (
         <div>
-            El contenido {children} es valido
+            El contenido {content} es valido
+            {details && <p>{details}</p>}
+            <p>el numero {number} es {number % 2 === 0 ? 'par' : 'impar'}</p>
         </div>
     )
 }
 ~~~
+
+> #### Referencias
+> [https://beta.reactjs.org/learn/conditional-rendering](https://beta.reactjs.org/learn/conditional-rendering)
 
 ## Iteraciones
 
@@ -158,6 +176,9 @@ export const ListComponent = ({list}) => {
    )
 }
 ~~~
+
+> #### Referencias
+> [https://beta.reactjs.org/learn/rendering-lists](https://beta.reactjs.org/learn/rendering-lists)
 
 ## Eventos
 
@@ -181,3 +202,4 @@ Para definírlo tenemos que indicar dos cosas: Primero el tipo de evento que que
 
 > #### Referencia
 > [https://reactjs.org/docs/handling-events.html](https://reactjs.org/docs/handling-events.html)
+> [https://beta.reactjs.org/learn/responding-to-events](https://beta.reactjs.org/learn/responding-to-events)
