@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/cheatsheets/static/css/main.d6d36b5c.css",
-    "main.js": "/cheatsheets/static/js/main.0b581bc5.js",
+    "main.css": "/cheatsheets/static/css/main.db45a880.css",
+    "main.js": "/cheatsheets/static/js/main.d491542e.js",
     "static/js/787.10a1eb35.chunk.js": "/cheatsheets/static/js/787.10a1eb35.chunk.js",
+    "static/media/flux.png": "/cheatsheets/static/media/flux.fe27d51dd4732f81cd37.png",
     "static/media/lesson2.md": "/cheatsheets/static/media/lesson2.581b6c7666383709d3f9.md",
     "static/media/lesson3.md": "/cheatsheets/static/media/lesson3.f2d9e347fc74c083d0ad.md",
     "static/media/lesson1.md": "/cheatsheets/static/media/lesson1.37b8a9d8b234d08ad6e1.md",
+    "static/media/lesson5.md": "/cheatsheets/static/media/lesson5.3c54db9fbdbcc0563754.md",
+    "static/media/lesson4.md": "/cheatsheets/static/media/lesson4.2f341ad068cccb23628f.md",
     "index.html": "/cheatsheets/index.html",
-    "static/media/lesson4.md": "/cheatsheets/static/media/lesson4.4c40804f87563363af71.md",
-    "main.d6d36b5c.css.map": "/cheatsheets/static/css/main.d6d36b5c.css.map",
-    "main.0b581bc5.js.map": "/cheatsheets/static/js/main.0b581bc5.js.map",
+    "main.db45a880.css.map": "/cheatsheets/static/css/main.db45a880.css.map",
+    "main.d491542e.js.map": "/cheatsheets/static/js/main.d491542e.js.map",
     "787.10a1eb35.chunk.js.map": "/cheatsheets/static/js/787.10a1eb35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6d36b5c.css",
-    "static/js/main.0b581bc5.js"
+    "static/css/main.db45a880.css",
+    "static/js/main.d491542e.js"
   ]
 }
