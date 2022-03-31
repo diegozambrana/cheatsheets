@@ -27,6 +27,12 @@ blockquote{
 }
 blockquote *:first-child{margin-top: 0;}
 blockquote *:last-child{margin-bottom: 0;}
+
+img{
+  max-width: 100%;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 30%);
+}
+
 .paper{
   background-color: var(--nord6);
   /* border-radius: 0.5rem; */
@@ -79,4 +85,7 @@ blockquote *:last-child{margin-bottom: 0;}
   background-color: var(--nord0);
   overflow: hidden;
   border-radius: 0.5rem;
+}
+.code-box pre{
+  margin: 0;
 }

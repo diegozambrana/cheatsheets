@@ -15,6 +15,15 @@ export const MarkDown = ({value}) => {
             {children}
           </code>
         )
+      },
+      a: ({node, ...props}) => {
+        if(props.title){
+          return <a {...props} target="_blank" />
+        }
+        return <a {...props}/>
+      },
+      img: ({src, alt}) => {
+        return <img src={require(`../assets/${src}`)} alt={alt}/>
       }
     }}
   />
